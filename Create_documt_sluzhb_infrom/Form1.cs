@@ -25,7 +25,7 @@ namespace Create_documt_sluzhb_infrom
         private string connstring = String.Format("Server={0};Port={1};" +
             "User Id={2}; Password={3}; Database={4};",
             "localhost", 5432, "postgres",
-            "150590", "Test_DB");
+            "*", "Test_DB");
 
         private NpgsqlConnection conn;
         private string sql;
